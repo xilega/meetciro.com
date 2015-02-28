@@ -1,0 +1,26 @@
+
+————  INICIALIZAR ————  
+
+git init
+Inicia o projeto.
+
+————  VERIFICAR ESTADO  ————  
+
+git status
+Verifica o estado do projeto e lista o que precisa de ser feito o commit
+
+————  ADICIONAR FICHEIROS ————  
+
+git add NOME DO FICHEIRO
+Adiciona o ficheiro ao commit
+
+git add .
+Isto faz com que seja enviado tudo para o commit
+
+git add *.html
+Isto coloca apenas os ficheiros com a extensão .html
+
+————  FAZER COMMIT ————  
+
+git commit -m “UMA NOTA”
+Isto faz o commit com uma pequena nota.

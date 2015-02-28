@@ -1,0 +1,65 @@
+############# Ficheiros executaveis
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+ 
+############# Ficheiros Comprimidos
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+ 
+############# Logs e basedados
+*.log
+*.sql
+*.sqlite
+ 
+############# Ficheiros de sistema
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+*.DS_Store
+ 
+############# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+ 
+ 
+############# Eclipse
+.classpath
+.project
+.settings
+ 
+############# Outros ficheiros
+ficheiros_auxiliares/
+/web-app/WEB-INF
+build/
+*.[oa]
+*.pyc
+.hg
+.svn
+CVS
+
+############# Ficheiros de backup
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
