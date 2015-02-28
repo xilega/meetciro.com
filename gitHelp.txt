@@ -20,7 +20,41 @@ Isto faz com que seja enviado tudo para o commit
 git add *.html
 Isto coloca apenas os ficheiros com a extensão .html
 
+————  APAGAR FICHEIROS ———— 
+
+git rm index.html
+Isto apagar o ficheiro 
+
 ————  FAZER COMMIT ————  
 
 git commit -m “UMA NOTA”
 Isto faz o commit com uma pequena nota.
+
+git commit -a -m “UMA NOTA”
+Isto faz o add e adiciona uma nota ao commit
+
+————  FAZER CONTEÚDO FICHEIROS ALTERADOS ————  
+
+git diff
+Isto permite ver dentro dos ficheiros que não foram selecionados para commit o que foi alterado.
+
+git diff —staged
+Isto faz o mesmo mas apenas dos ficheiros que já foram adicionados e estão á espera de commit
+
+
+
+
+
+
+
+
+
+
+————  COPIAR OUTROS PROJETOS ———— 
+
+Para copiar um projeto do github.com fazer o seguinte:
+
+$ git clone git://github.com/schacon/grit.git mygrit
+
+Sendo que o mygrit é a pasta onde colocamos o projeto.
+Isto é util para fazer o download de framework ou subprojetos e adicionar num projeto maior.
