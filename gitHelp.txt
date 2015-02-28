@@ -23,7 +23,23 @@ Isto coloca apenas os ficheiros com a extensão .html
 ————  APAGAR FICHEIROS ———— 
 
 git rm index.html
-Isto apagar o ficheiro 
+Isto apaga o ficheiro index.html. Mas só apaga se já tinha sido feito o commit.
+
+$ git rm --cached index.html
+Isto apagar o ficheiro do add mas mantém o ficheiro no PC
+
+git rm -f index.html
+Isto apaga definitivamente o ficheiro do computador e do projeto
+
+
+————  VER CONTEÚDO FICHEIROS ALTERADOS ————  
+
+git diff
+Isto permite ver dentro dos ficheiros que não foram selecionados para commit o que foi alterado.
+
+git diff —staged
+Isto faz o mesmo mas apenas dos ficheiros que já foram adicionados e estão á espera de commit
+
 
 ————  FAZER COMMIT ————  
 
@@ -33,20 +49,26 @@ Isto faz o commit com uma pequena nota.
 git commit -a -m “UMA NOTA”
 Isto faz o add e adiciona uma nota ao commit
 
-————  FAZER CONTEÚDO FICHEIROS ALTERADOS ————  
 
-git diff
-Isto permite ver dentro dos ficheiros que não foram selecionados para commit o que foi alterado.
+————  VER HISTÓRICO DE COMMIT ————  
 
-git diff —staged
-Isto faz o mesmo mas apenas dos ficheiros que já foram adicionados e estão á espera de commit
+git log
+Isto vê todas alterações e quem as fez.
 
-
-
+git log -p
+Isto mostra o que foi alterado em cada commit
 
 
+————  MODIFICAR UM COMMIT ————  
 
+$ git commit --amend
+Este código permite anular o ultimo commit colocando um novo por cima.
 
+Exemplo da alteração de um commit, onde é adicionado o ficheiro index.html
+
+$ git commit -m 'initial commit'
+$ git add index.html
+$ git commit --amend
 
 
 
