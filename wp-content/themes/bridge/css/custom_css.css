@@ -1,0 +1,131 @@
+
+
+#nav-menu-item-14860 li,
+#nav-menu-item-14862 li,
+#nav-menu-item-14864 li,
+#nav-menu-item-14866 li,
+#nav-menu-item-15100 li,
+#nav-menu-item-15102 li{
+width: 280px;
+}
+
+.drop_down .second .inner .widget {
+padding-bottom: 13px;
+}
+
+.drop_down .second .inner .widget a{
+padding: 0px !important;
+}
+
+.carousel-inner .item.dark .slider_content .text .qbutton,
+.carousel-inner .item.light .slider_content .text .qbutton { 
+    background-color: #000;    
+    border-color: #000;
+}
+
+.carousel-inner .item.light .slider_content .text .qbutton.white {
+     background-color: transparent;
+}
+
+.carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
+.carousel-inner .item.dark .slider_content .text .qbutton:hover,
+.carousel-inner .item.light .slider_content .text .qbutton.white:hover,
+.carousel-inner .item.light .slider_content .text .qbutton:hover {
+background-color: #f53644;
+border-color: #f53644 !important;
+}
+
+.carousel-inner .item.dark .slider_content .text .qbutton:hover,
+.carousel-inner .item.light .slider_content .text .qbutton:hover { 
+    color: #fff; 
+}
+
+.no-touch nav.vertical_menu_toggle ul>li.menu-item-has-children>a>.plus {
+display: none;
+}
+
+.qode_pricing_list .qode_pricing_item_price_inner span {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.testimonials .testimonial_text_inner p.testimonial_author {
+    font-family: Montserrat;
+}
+
+.subtitle { margin-top: 20px; }
+
+.vertical_menu_area .q_social_icon_holder { margin: 0 19px 2px 0!important; }
+
+.vertical_logo_wrapper {
+margin-top: 0px;
+}
+
+.contact_detail h4 {
+display: none;
+}
+
+.contact_section .separator.small {
+height: 1px;
+background-color: #000;
+width: 60px;
+margin-top: 26px;
+}
+
+.google_map {
+    margin-bottom: 53px;
+}
+
+.blog_holder.masonry article:not(.format-quote):not(.format-link) .post_text .post_text_inner, .blog_holder.masonry_full_width article post_text .post_text_inner,
+.blog_holder.blog_large_image article:not(.format-quote):not(.format-link) .post_text .post_text_inner {
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.blog_holder.blog_small_image article:not(.format-quote):not(.format-link) .post_text .post_text_inner {
+padding-top: 0;
+}
+
+.q_logo_vertical img.normal { max-height: 150px; }
+
+nav.vertical_menu { margin-top: 30px; }
+
+nav.mobile_menu ul li span.mobile_arrow i, nav.mobile_menu ul li span.mobile_arrow i { color: #fff; }
+
+nav.vertical_menu>ul>li>a {
+text-transform: none;
+}
+.projects_holder article span.text_holder {
+background-color: rgba(255,255,255,0.9);
+}
+
+.projects_holder.hover_text article .hover_feature_holder_title .portfolio_title a {
+color: #000000;
+}
+.projects_holder article .portfolio_description .project_category, .projects_holder.hover_text article span.text_holder span.text_inner .hover_feature_holder_title .project_category {
+font-weight: 300;
+color: #777777;
+}
+
+.single-portfolio_page .flexslider:hover .flex-direction-nav a:hover {
+    background-color: #000000 !important;
+    
+}
+
+.single-portfolio_page .flexslider:hover .flex-direction-nav a:hover i {
+    color: #fff !important; 
+}
+
+.single-portfolio_page .flexslider .flex-direction-nav a {
+    border-color: #000000 !important;
+}
+
+.single-portfolio_page .flexslider .flex-direction-nav a i {
+    color: #000000 !important;
+}
+
+.contact_section .separator.small {
+display: none;
+}
+
+.projects_holder article .portfolio_description { padding: 40px 0 40px; }

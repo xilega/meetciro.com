@@ -1,0 +1,281 @@
+/*
+Theme Name: Bridge
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: Bridge Theme
+Tags: creative, portfolio, multi-purpose, clean, retina, responsive, parallax, mega menu, blog, agency, business, fullscreen, modern, background video, ajax
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 5.7
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+
+/**
+ * HEADER
+*/
+
+#img-um,
+	#img-dois,
+	#img-tres {
+	display: block;
+	position: absolute;
+	-webkit-will-change: -webkit-transform;
+  -moz-will-change: -moz-transform;
+  will-change: transform;
+  max-width:none;
+}
+#img-um {
+  width: 500px;
+  height: 555px;
+	bottom: 30px;
+	left: -250px;
+	z-index: 1;
+  
+  
+  -webkit-animation: layer-img-um 35s ease-in-out infinite;
+  -moz-animation: layer-img-um 35s ease-in-out infinite;
+  -ms-animation: layer-img-um 35s ease-in-out infinite;
+  -o-animation: layer-img-um 35s ease-in-out infinite;
+  animation: layer-img-um 35s ease-in-out infinite;
+}
+#img-dois {
+	width: 380px;
+	height: 364px;
+  bottom: 130px;
+  left: -60px;
+  z-index: 2;
+  
+  -webkit-animation: layer-img-dois 30s ease-in-out infinite;
+  -moz-animation: layer-img-dois 30s ease-in-out infinite;
+  -ms-animation: layer-img-dois 30s ease-in-out infinite;
+  -o-animation: layer-img-dois 30s ease-in-out infinite;
+  -webkit-animation: layer-img-dois 30s ease-in-out infinite;
+}
+#img-tres {
+	width: 544px;
+	height: 679px;
+	bottom: -150px;
+	left: -100px;
+	z-index: 3;
+  
+  -webkit-animation: layer-img-tres 36s ease-in-out infinite;
+  -moz-animation: layer-img-tres 36s ease-in-out infinite;
+  -ms-animation: layer-img-tres 36s ease-in-out infinite;
+  -o-animation: layer-img-tres 36s ease-in-out infinite;
+  animation: layer-img-tres 36s ease-in-out infinite;
+ }
+@-webkit-keyframes layer-img-um {
+  0%  { -webkit-transform: translate(0px, 0px); }
+  20% { -webkit-transform: translate(40px, -40px); }
+  40% { -webkit-transform: translate(-40px, 40px); }
+  60% { -webkit-transform: translate(-40px, 40px); }
+  80% { -webkit-transform: translate(40px, -40px); }
+  100%{ -webkit-transform: translate(0px, 0px); }
+}
+@-webkit-keyframes layer-img-dois {
+  0%  { -webkit-transform: translate(0px, 0px); }
+  20% { -webkit-transform: translate(40px, 40px); }
+  40% { -webkit-transform: translate(20px, -40px); }
+  60% { -webkit-transform: translate(40px, -60px); }
+  80% { -webkit-transform: translate(-40px, 40px); }
+  100%{ -webkit-transform: translate(0px, 0px); }
+}
+@-webkit-keyframes layer-img-tres {
+  0%  { -webkit-transform: translate(0px, 0px) rotate(0deg); }
+  25% { -webkit-transform: translate(40px, -40px) rotate(0.5deg); }
+  45% { -webkit-transform: translate(20px, -40px) rotate(-0.4deg); }
+  65% { -webkit-transform: translate(40px, -20px) rotate(0.6deg); }
+  80% { -webkit-transform: translate(20px, 20px) rotate(-0.3deg); }
+  100%{ -webkit-transform: translate(0px, 0px) rotate(0deg); }
+}
+
+.vertical_area_background {
+	overflow: hidden;
+}
+
+.vertical_menu_area .widget_text h5 {
+	font-size:10px;
+	line-height:1;
+	width:80%;
+	color: rgba(255,255,255,0.6);
+}
+.vertical_menu_area .simple_social { 
+	color: rgba(255,255,255,0.3) !important;
+}
+.vertical_menu_area .simple_social:hover { 
+	color: rgba(255,255,255,1) !important;
+}
+
+
+/**
+ * FOOTER
+*/
+.cf7_custom_style_1 input,
+ .cf7_custom_style_1 textarea,
+ .cf7_custom_style_1 .wpcf7-submit {
+	-webkit-border-radius: 8px !important;
+	border-radius: 8px !important;
+}
+
+
+/**
+ * CONFIGURAÇÕES GLOBAIS
+*/
+/*
+Theme Name: Bridge
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: Bridge Theme
+Tags: creative, portfolio, multi-purpose, clean, retina, responsive, parallax, mega menu, blog, agency, business, fullscreen, modern, background video, ajax
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 5.7
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+
+/**
+ * HEADER
+*/
+
+#img-um,
+	#img-dois,
+	#img-tres {
+	display: block;
+	position: absolute;
+	-webkit-will-change: -webkit-transform;
+  -moz-will-change: -moz-transform;
+  will-change: transform;
+  max-width:none;
+}
+#img-um {
+  width: 500px;
+  height: 555px;
+	bottom: 30px;
+	left: -250px;
+	z-index: 1;
+  
+  
+  -webkit-animation: layer-img-um 35s ease-in-out infinite;
+  -moz-animation: layer-img-um 35s ease-in-out infinite;
+  -ms-animation: layer-img-um 35s ease-in-out infinite;
+  -o-animation: layer-img-um 35s ease-in-out infinite;
+  animation: layer-img-um 35s ease-in-out infinite;
+}
+#img-dois {
+	width: 380px;
+	height: 364px;
+  bottom: 130px;
+  left: -60px;
+  z-index: 2;
+  
+  -webkit-animation: layer-img-dois 30s ease-in-out infinite;
+  -moz-animation: layer-img-dois 30s ease-in-out infinite;
+  -ms-animation: layer-img-dois 30s ease-in-out infinite;
+  -o-animation: layer-img-dois 30s ease-in-out infinite;
+  -webkit-animation: layer-img-dois 30s ease-in-out infinite;
+}
+#img-tres {
+	width: 544px;
+	height: 679px;
+	bottom: -150px;
+	left: -100px;
+	z-index: 3;
+  
+  -webkit-animation: layer-img-tres 36s ease-in-out infinite;
+  -moz-animation: layer-img-tres 36s ease-in-out infinite;
+  -ms-animation: layer-img-tres 36s ease-in-out infinite;
+  -o-animation: layer-img-tres 36s ease-in-out infinite;
+  animation: layer-img-tres 36s ease-in-out infinite;
+ }
+@-webkit-keyframes layer-img-um {
+  0%  { -webkit-transform: translate(0px, 0px); }
+  20% { -webkit-transform: translate(40px, -40px); }
+  40% { -webkit-transform: translate(-40px, 40px); }
+  60% { -webkit-transform: translate(-40px, 40px); }
+  80% { -webkit-transform: translate(40px, -40px); }
+  100%{ -webkit-transform: translate(0px, 0px); }
+}
+@-webkit-keyframes layer-img-dois {
+  0%  { -webkit-transform: translate(0px, 0px); }
+  20% { -webkit-transform: translate(40px, 40px); }
+  40% { -webkit-transform: translate(20px, -40px); }
+  60% { -webkit-transform: translate(40px, -60px); }
+  80% { -webkit-transform: translate(-40px, 40px); }
+  100%{ -webkit-transform: translate(0px, 0px); }
+}
+@-webkit-keyframes layer-img-tres {
+  0%  { -webkit-transform: translate(0px, 0px) rotate(0deg); }
+  25% { -webkit-transform: translate(40px, -40px) rotate(0.5deg); }
+  45% { -webkit-transform: translate(20px, -40px) rotate(-0.4deg); }
+  65% { -webkit-transform: translate(40px, -20px) rotate(0.6deg); }
+  80% { -webkit-transform: translate(20px, 20px) rotate(-0.3deg); }
+  100%{ -webkit-transform: translate(0px, 0px) rotate(0deg); }
+}
+
+.vertical_area_background {
+	overflow: hidden;
+}
+
+.vertical_menu_area .widget_text h5 {
+	font-size:10px;
+	line-height:1;
+	width:60%;
+	color: rgba(255,255,255,0.6);
+}
+.vertical_menu_area .simple_social { 
+	color: rgba(255,255,255,0.3) !important;
+}
+.vertical_menu_area .simple_social:hover { 
+	color: rgba(255,255,255,1) !important;
+}
+
+
+/**
+ * FOOTER
+*/
+.cf7_custom_style_1 input,
+ .cf7_custom_style_1 textarea,
+ .cf7_custom_style_1 input[type=submit] {
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+span.wpcf7-not-valid-tip { color: rgba(0,0,0,0.8); }
+
+
+
+/**
+ * NÓS
+*/
+.testimonials_holder { text-align: left !important; }
+
+/**
+ * PORTFÓLIO
+*/
+.projects_masonry_holder a.lightbox {
+	display: none;
+}
+
+
+
+/**
+ * CONFIGURAÇÕES GLOBAIS
+*/
+.title.title_size_large h1 {
+	font-size: 77px !important;
+	letter-spacing: -3px;
+	width: 80%;
+}
+.title.title_size_large h1 b {
+	color: #fdb186;
+}
+
+
+
+
+
